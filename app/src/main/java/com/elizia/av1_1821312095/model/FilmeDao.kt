@@ -1,4 +1,4 @@
-package model
+package com.elizia.av1_1821312095.model
 
 import androidx.room.Dao
 import androidx.room.Insert

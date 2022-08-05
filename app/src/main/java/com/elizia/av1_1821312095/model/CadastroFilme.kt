@@ -1,4 +1,4 @@
-package model
+package com.elizia.av1_1821312095.model
 
 import android.content.Context
 import androidx.room.Database

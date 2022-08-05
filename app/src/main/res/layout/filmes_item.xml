@@ -9,7 +9,7 @@
         android:id="@+id/imgFimes"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:src="@drawable/PulpFiction"
+        android:src="@drawable/pulp_fiction"
         android:layout_margin="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
