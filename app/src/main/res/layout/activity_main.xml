@@ -13,7 +13,7 @@
        tools:listitem="@layout/filmes_item" />
 
    <com.google.android.material.floatingactionbutton.FloatingActionButton
-       android:id="@+id/floatingActionButton"
+       android:id="@+id/fab_cadastro"
        android:layout_width="56dp"
        android:layout_height="56dp"
        android:clickable="true"

@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.elizia.av1_1821312095.databinding.ActivityCadastroBinding
 
-class cadastro : AppCompatActivity() {
+class CadastroActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityCadastroBinding
 

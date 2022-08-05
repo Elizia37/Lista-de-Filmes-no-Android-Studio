@@ -1,5 +1,6 @@
 package com.elizia.av1_1821312095
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -18,6 +19,11 @@ class MainActivity : AppCompatActivity() {
         val recyclerView_filmes = binding.recFilme
         recyclerView_filmes.layoutManager = LinearLayoutManager(this)
         recyclerView_filmes.setHasFixedSize(true) //dá desenpenho a lista
+        binding.fabCadastro.setOnClickListener {
+            val trocaDeCadastro = Intent(this, CadastroActivity::class.java)
+            startActivity(trocaDeCadastro)
+        }
+
 
     }
 
