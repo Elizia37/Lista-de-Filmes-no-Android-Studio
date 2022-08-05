@@ -4,17 +4,15 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 
-class FilmeDao {
-    @Dao
-    interface PessoaDAO {
+@Dao
+interface FilmeDAO {
 
-        @Query("SELECT * FROM filme_table ORDER BY titulo_filme ASC")
-        fun getPessoas(): List<Filme>
+    @Query("SELECT * FROM filme_table ORDER BY titulo_filme ASC")
+    fun getFilmes(): List<Filme>
 
-        @Insert
-        fun insert(filme: Filme)
+    @Insert
+    fun insert(filme: Filme)
 
-        @Query("DELETE FROM filme_table")
-        fun deleteAll()
-    }
+    @Query("DELETE FROM filme_table")
+    fun deleteAll()
 }

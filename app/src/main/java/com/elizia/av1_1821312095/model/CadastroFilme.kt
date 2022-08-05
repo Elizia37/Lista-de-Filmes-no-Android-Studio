@@ -8,11 +8,10 @@ import androidx.room.RoomDatabase
 @Database(entities = arrayOf(Filme::class), version = 1, exportSchema = false)
 abstract class CadastroFilme: RoomDatabase() {
 
-    abstract fun filmeDao(): FilmeDao
-
+    abstract fun filmeDao():FilmeDAO
 
     companion object {
-        @Volatile
+       //@Volatile
         private var INSTANCE: CadastroFilme? = null
 
         fun getDatabase(context:Context): CadastroFilme {
